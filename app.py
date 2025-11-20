@@ -176,8 +176,8 @@ content_type_filter = st.sidebar.multiselect(
 year_range = st.sidebar.slider(
     "개봉 연도 범위",
     min_value=int(df_original['release_year'].min()),
-    max_value=int(df_original['release_year'].min()),
-    value=(int(df_original['release_year'].min()), int(df_original['release_year'].min()))
+    max_value=int(df_original['release_year'].max()),
+    value=(int(df_original['release_year'].min()), int(df_original['release_year'].max()))
 )
 
 # TODO 12: 제목 검색 ⭐
