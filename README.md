@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21754759)
 # 🎬 Netflix 데이터 시각화 실습
 
 **환영합니다!** 오늘은 Netflix 데이터를 활용해서 나만의 대시보드를 만들고 인터넷에 배포까지 해볼 거예요! 🚀
