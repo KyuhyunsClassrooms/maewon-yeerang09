@@ -167,7 +167,7 @@ st.sidebar.subheader("🔍 데이터 필터")
 # 정답: default=["Movie", "TV Show"]
 content_type_filter = st.sidebar.multiselect(
     "콘텐츠 유형 선택",
-    options=df_orugubainal['type'].unique(),
+    options=df_original['type'].unique(),
     default=["Movie", "TV Show"]
 )
 
