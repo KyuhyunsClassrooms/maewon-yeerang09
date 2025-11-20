@@ -283,7 +283,7 @@ with tab1:
         value=10
     )
     
-    country_counts = df['country'].value.counts().head(top_n)
+    country_counts = df['country'].value_counts().head(top_n)
     
     fig = px.bar(
         x=country_counts.values,
